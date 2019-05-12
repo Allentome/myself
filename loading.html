@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/green.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>     -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+    <title>Allen的简历</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var progressId = "ProgressBarID";
+        function setProgressBar(progress) {
+            if (progress) {
+                $("#" + progressId + " > div").css("width", String(progress) + "%");
+                $("#" + progressId + " > div").html(String(progress) + "%");
+            }
+        }
+        var i_ProgressBar = 0;
+        function doProgressBarLoading() {
+            if (i_ProgressBar > 99) {
+                // alert("加载完毕?！！");
+                return;
+            }
+            if (i_ProgressBar <= 99) {
+                setTimeout("doProgressBarLoading()", 10);
+                setProgressBar(i_ProgressBar);
+                i_ProgressBar++;
+            }
+        }
+        function setProgressBarCss() {
+            $("#" + progressId + "").css({ "width": "300px", "height": "25px" });
+            $("#" + progressId + " > div").css({ "height": "25px", "background-color": "#e0e0e0", "text-align": "center" });
+        }
+        $(document).ready(function () {
+            setProgressBarCss();
+            doProgressBarLoading();
+        });
+
+    </script>
+
+    <div id="ProgressBarID"><div></div></div>
+
+</body>
+
+</html>

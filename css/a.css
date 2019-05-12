@@ -1,0 +1,31 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+     height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container::before,.container::after,.clearfix::before,.clearfix::after{          /* 清浮动 */
+    content: "";
+    display:table;
+}
+.container::after,.clearfix::after{
+    clear:both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-indent{
+    text-indent: 10px;
+}
+

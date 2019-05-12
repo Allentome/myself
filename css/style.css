@@ -1,0 +1,569 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  background-color: #1bbc9b;
+}
+a::after {
+  background: green;
+}
+.clear {
+  overflow: hidden;
+  clear: both;
+}
+.header {
+  display: block;
+  height: 60px;
+  background-color: #00A000;
+  opacity: 1;
+}
+.header p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 15px;
+}
+.header1 {
+  text-align: center;
+  opacity: 1;
+  display: none;
+  height: 60px;
+}
+.header1 .header1-right {
+  margin-top: -4px;
+}
+.header1 .a {
+  line-height: 17px;
+  font-size: 18px;
+}
+.genduo {
+  z-index: 998;
+  margin-top: -60px;
+  float: right;
+  z-index: 9;
+}
+#pageone .p-title {
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+}
+#pageone .zhuye1 {
+  overflow: hidden;
+  box-shadow: -1px 15px 30px -12px black;
+  background: #FFFFFF;
+  min-height: 522px;
+  border-radius: 25px;
+}
+#pageone .zhuye2 {
+  overflow: hidden;
+  box-shadow: -1px 15px 30px -12px black;
+  background: #FFFFFF;
+  min-height: 522px;
+  border-radius: 25px;
+}
+#pageone .zhuye2 .icon {
+  font-size: 18px;
+  float: left;
+  margin-left: 2%;
+}
+#pageone .zhuye2 .font {
+  float: left;
+  line-height: 55px !important;
+  display: block;
+  margin-left: 5px;
+}
+#pageone .zhuye2 .zhuye2-center {
+  width: 350px;
+  margin: 35px auto;
+  text-align: center;
+}
+#pageone .zhuye3 {
+  box-shadow: -1px 15px 30px -12px black;
+  background: #FFFFFF;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+#pageone .zhuye3 .talk {
+  line-height: 43px;
+  text-indent: 2em;
+  text-align: left;
+  width: 85%;
+}
+#pageone .zhuye1:hover,
+#pageone .zhuye2:hover,
+#pageone .zhuye3:hover {
+  box-shadow: -1px 15px 30px -12px green;
+}
+#pagetwo .zhuye4 {
+  box-shadow: -1px 15px 30px -12px black;
+  background: #D8DBE4;
+  min-height: 522px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+#pagetwo .zhuye5 {
+  box-shadow: -1px 15px 30px -12px black;
+  background: #D8DBE4;
+  min-height: 522px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+#pagetwo .zhuye4:hover,
+#pagetwo .zhuye5:hover {
+  box-shadow: -1px 15px 30px -12px green;
+}
+#pagetwo h1 {
+  float: left;
+  font-size: 40px;
+  color: #404040;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#pagetwo .pagetwo-hr {
+  width: 100%;
+  color: #FFFFFF;
+  width: 95%;
+}
+#pagetwo h2 {
+  float: left;
+  color: green;
+  margin-left: 5%;
+}
+#pagetwo h3 {
+  font-size: 18px;
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  color: #404040;
+  margin-left: 8%;
+}
+#pagetwo .strip {
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+#pagetwo .mbottom {
+  margin-bottom: 15px;
+}
+#pagethree .zhuye6 {
+  background: #1bbc9b;
+  min-height: 522px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+#pagethree .zhuye6 .prizewidth {
+  margin-top: 30px;
+}
+#pagethree h1 {
+  float: left;
+  margin-top: -10px;
+  font-size: 40px;
+  color: #404040;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#pagethree h2 {
+  float: left;
+  color: green;
+  margin-left: 5%;
+}
+#pagethree a {
+  text-decoration: none;
+}
+#pagethree .min {
+  box-shadow: -1px 15px 30px -12px black;
+  text-align: center;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  background: #FFFFFF;
+}
+#pagethree .min .Myprize {
+  margin-bottom: -10px;
+}
+#pagethree .min .h3 {
+  margin-top: 10px;
+  float: left;
+  margin-left: 0.5%;
+  margin-bottom: -5px;
+  clear: both;
+  color: #33cc76;
+}
+#pagethree .min .p4 {
+  clear: both;
+  margin-top: 10px;
+  float: left;
+  margin-left: 0.5%;
+  margin-bottom: -5px;
+  color: #33cc76;
+}
+#pagethree .min .h3:hover,
+#pagethree .min .p4:hover {
+  color: #3388cc;
+}
+#pagethree .min img {
+  width: 99%;
+}
+#pagethree .min img:hover {
+  opacity: 0.8;
+}
+#pagethree .min:hover {
+  box-shadow: -1px 15px 30px -12px green;
+}
+#pagefour {
+  margin-bottom: 50px;
+  background-color: #1bbc9b;
+}
+#pagefour .zhuye6 h1 {
+  float: left;
+  margin-top: -10px;
+  font-size: 40px;
+  color: #404040;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#pagefour .mind-font {
+  text-align: left;
+  text-indent: 2em;
+  font-size: 18px;
+  line-height: 30px;
+}
+#pagefive .zhuye4 {
+  box-shadow: -1px 15px 30px -12px black;
+  background: #D8DBE4;
+  min-height: 522px;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+#pagefive .zhuye5 {
+  min-height: 585px;
+  box-shadow: -1px 15px 30px -12px black;
+  background: #D8DBE4;
+  min-height: 522px;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+#pagefive .zhuye4:hover,
+#pagefive .zhuye5:hover {
+  box-shadow: -1px 15px 30px -12px green;
+}
+#pagefive h1 {
+  float: left;
+  font-size: 40px;
+  color: #404040;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#pagefive .pagetwo-hr {
+  width: 100%;
+  color: #FFFFFF;
+  width: 95%;
+}
+#pagefive h2 {
+  float: left;
+  color: green;
+  margin-left: 5%;
+}
+#pagefive form {
+  margin-top: -47px;
+}
+#pagefive .form {
+  font-size: 18px;
+  width: 99%;
+}
+#pagefive .form input {
+  height: 35px;
+}
+#pagefive .form .width50 {
+  background: #D8DBE4;
+  width: 100%;
+  float: left;
+}
+#pagefive .form .widthright {
+  float: right;
+  width: 100%;
+}
+#pagefive .form textarea.ui-input-text {
+  min-height: 110px;
+}
+#pagefive .form .submit {
+  border-radius: 25px;
+  margin-top: 5px;
+  height: 40px;
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 8%;
+}
+footer a {
+  margin-top: 5px;
+  float: left;
+  margin-left: 10px;
+}
+footer a img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 770px) {
+  #pageone .zhuye1 {
+    width: 100%;
+    height: none;
+    float: none;
+  }
+  #pageone .zhuye2 {
+    margin-top: 80px;
+  }
+  #pageone .zhuye2 .font {
+    font-size: 18px;
+  }
+  #pageone .zhuye2 .zhuye2-center {
+    width: 260px;
+  }
+  #pageone .zhuye3 {
+    margin-top: 80px;
+  }
+  #pageone .zhuye3 .talk {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #pagetwo h3 {
+    font-size: 18px !important;
+  }
+  #pagetwo .zhuye4 {
+    width: 100%;
+    height: none;
+    float: none;
+  }
+  #pagetwo .zhuye5 {
+    width: 100%;
+    height: none;
+    float: none;
+  }
+  .zhuye6 {
+    width: 100%;
+    height: none;
+    float: none;
+  }
+  .zhuye6 .prizewidth {
+    margin-left: 3%;
+  }
+  .zhuye6 .min {
+    width: 46%;
+    margin-right: 3.5%;
+  }
+  .zhuye6 .min h3 {
+    font-size: 15px;
+  }
+  .zhuye6 .min .h3 {
+    font-size: 18px;
+  }
+  .zhuye6 .min .p4 {
+    font-size: 12px;
+  }
+  #pagefive form {
+    margin-top: -37px;
+  }
+  .header {
+    display: block;
+  }
+  footer .weixin {
+    display: none;
+    float: left;
+    margin-left: -960px;
+    margin-top: -220px;
+  }
+  footer .qq {
+    display: none;
+    float: left;
+    margin-left: -960px;
+    margin-top: -160px;
+  }
+  footer .bili {
+    display: none;
+    float: left;
+    margin-left: -960px;
+    margin-top: -140px;
+  }
+}
+@media (min-width: 771px) {
+  .zhuye1 {
+    width: 41%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+  .zhuye2 {
+    margin-top: 0px;
+    margin-left: 4%;
+    width: 41%;
+    height: none;
+    float: left;
+  }
+  .zhuye2 .font {
+    font-size: 24px;
+  }
+  .zhuye3 {
+    margin-left: 6%;
+    margin-top: 80px;
+    width: 86%;
+    height: none;
+    float: left;
+  }
+  .zhuye3 .talk {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .zhuye4 {
+    width: 40%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+  .zhuye5 {
+    width: 40%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+  .zhuye6 {
+    width: 86%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+  .zhuye6 .prizewidth {
+    margin-left: 3%;
+  }
+  .zhuye6 .min {
+    width: 46%;
+    margin-right: 3.5%;
+  }
+  .zhuye6 .min .p4 {
+    font-size: 14px;
+  }
+  .header {
+    display: none;
+  }
+  .header1 {
+    display: block;
+  }
+  footer {
+    margin-left: 43%;
+    margin-right: 5px;
+    margin-top: -60px;
+    left: 50%;
+    top: 59%;
+    position: fixed;
+    z-index: 999;
+  }
+  footer a {
+    float: right;
+  }
+  footer a img {
+    width: 50px;
+    height: 50px;
+  }
+  footer .weixin {
+    display: none;
+    float: left;
+    margin-left: -160px;
+    margin-top: -220px;
+  }
+  footer .qq {
+    display: none;
+    float: left;
+    margin-left: -160px;
+    margin-top: -160px;
+  }
+  footer .bili {
+    display: none;
+    float: left;
+    margin-left: -160px;
+    margin-top: -140px;
+  }
+}
+@media (min-width: 1200px) {
+  .zhuye1 {
+    width: 41%;
+    height: none;
+    float: left;
+  }
+  .zhuye2 {
+    width: 41%;
+    height: none;
+    float: left;
+  }
+  .zhuye2 .icon {
+    margin-left: 8%;
+  }
+  .zhuye3 {
+    width: 86%;
+    height: none;
+    float: left;
+  }
+  .zhuye6 {
+    width: 87%;
+    height: none;
+    float: left;
+  }
+  .zhuye6 .prizewidth {
+    margin-left: 2%;
+  }
+  .zhuye6 .min {
+    width: 29%;
+    margin-right: 4.3%;
+  }
+  .header {
+    display: none;
+  }
+  .header1 {
+    display: block;
+  }
+}
+@media (min-width: 1485px) {
+  .zhuye1 {
+    width: 21%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+  .zhuye2 {
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 5%;
+    width: 23%;
+    height: none;
+    float: left;
+  }
+  .zhuye2 .icon {
+    margin-left: 0%;
+  }
+  .zhuye3 {
+    min-height: 522px;
+    margin-top: -20px;
+    margin-left: 5%;
+    width: 33%;
+    height: none;
+    float: left;
+  }
+  .zhuye3 .talk {
+    margin-bottom: 0px;
+  }
+  .zhuye4 {
+    width: 40.5%;
+    height: none;
+    float: left;
+  }
+  .zhuye5 {
+    width: 40.5%;
+    height: none;
+    float: left;
+    margin-left: 6%;
+  }
+}
