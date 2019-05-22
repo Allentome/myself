@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>amazing team</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0);
+            font-family: tahoma;
+            /* background: #B8860B; */
+        }
+
+        .owl-wrapper-outer {
+            height: 450px;
+        }
+
+        .testimonial {
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            background: #FFFFFF;
+            text-align: center;
+            padding: 30px 30px 50px;
+            margin: 0 15px 100px;
+            position: relative;
+
+            /* margin-top: 50px; */
+        }
+        /*盒子左三角形*/
+
+        .testimonial:hover {
+            box-shadow: -1px 15px 40px -12px green;
+        }
+
+        .testimonial::before,
+        .testimonial::after {
+            content: "";
+            border-top: 40px solid white;
+            border-right: 125px solid transparent;
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+        }
+        /*盒子右三角形*/
+
+        .testimonial::after {
+            border-right: none;
+            border-left: 125px solid transparent;
+            left: auto;
+            right: 0;
+        }
+
+        .testimonial .icon {
+            display: inline-block;
+            font-size: 80px;
+            color: #f28a0b;
+            margin-bottom: 20px;
+            opacity: 0.6
+        }
+
+        .testimonial .description {
+     
+            color: black;
+            text-align: justify;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            letter-spacing: -1px;
+        }
+
+        .testimonial .testimonial-content {
+            width: 100%;
+            position: absolute;
+            left: 0;
+        }
+
+        .testimonial .pic {
+            display: inline-block;
+            border: 6px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 2px 2px green;
+            overflow: hidden;
+            z-index: 1;
+            position: relative;
+        }
+
+        .testimonial .pic img {
+            /* width: 100%; */
+            height: auto;
+        }
+
+        .testimonial .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-transform: capitalize;
+            margin: 0 0 5px 0;
+        }
+
+        .testimonial .post {
+            display: block;
+            font-size: 18px;
+            color: #ffd9b8;
+        }
+
+        .pic img {
+            width: 100px !important;
+            height: 50px;
+        }
+
+        .owl-theme .owl-controls .owl-page span {
+            background: green;
+        }
+        @media (max-width:770px) {
+            .testimonial .description {
+                font-size: 18px;
+            }
+        }
+        @media (min-width:771px) {
+       
+            .testimonial .description {
+                font-size: 24px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            <b>2017-2020 
+                                <br>
+                                3年全日制在校生</b>
+                            <br> 深圳信息职业技术学院，是一所由深圳市人民政府举办，广东省人民政府批准成立的公办全日制普通高等学校.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic">
+                                <img src="img/shenxin.jpg" alt="">
+                            </div>
+                            <h3 class="title">深圳信息学院</h3>
+                            <span class="post">Shenzhen Institute</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left">    </span>
+                        <p class="description">
+                            <b>2017-2020 
+                                <br>
+                                3年专升本自考学生</b>
+                            <br> 深圳大学，位于中国经济特区广东省深圳市，是由国家教育部批准设立，广东省主管的综合性大学.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic">
+                                <img src="img/shenda.jpg" alt="">
+                            </div>
+                            <h3 class="title">深圳大学</h3>
+                            <span class="post">Shenzhen University</span>
+                        </div>
+
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            <b>2019年3月13日
+                                        <br>
+                                        part time</b>
+                            <br> 在华为公司进行拼装创意乐高项目,成功拼装了一块长10米,宽5米的乐高板,促进了华为香港峰会的展开.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic">
+                                <img src="img/huawei.jpg" alt="">
+                            </div>
+                            <h3 class="title">华为</h3>
+                            <span class="post">Hua Wei</span>
+                        </div>
+
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            <b>2019年4月13日
+                                        <br>
+                                        part time</b>
+                            <br> 在腾讯公司进行了体验手机游戏项目,成功测试出了游戏内部明显的问题并且上报，对游戏进行了认真的测试.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic">
+                                <img src="img/tenxun.jpg" alt="">
+                            </div>
+                            <h3 class="title">腾讯</h3>
+                            <span class="post">Teng Xun</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#testimonial-slider").owlCarousel({
+                items: 3,
+                itemsDesktop: [1000, 3],
+                itemsDesktopSmall: [979, 2],
+                itemsTablet: [768, 2],
+                itemsMobile: [650, 1],
+                pagination: true,
+                autoPlay: true
+            })
+        })
+    </script>
+</body>
+
+</html>

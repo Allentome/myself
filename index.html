@@ -33,6 +33,37 @@
 
 
     <title>Allen的简历</title>
+    <style>
+        @media (max-width:770px) {
+            /*固定壁纸不动*/
+            .wall::before,body::before {
+                content: ' ';
+                position: fixed;
+                z-index: -1;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: url(img/wall.jpg) ;
+            }
+            #myPanel{
+                background: url(img/wall.jpg)repeat-x;
+            }
+        }
+
+        @media (min-width:771px) {
+            .wall {
+                content: ' ';
+                position: fixed;
+                /* z-index: -1; */
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: url(img/wall.jpg)repeat-x;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,12 +76,12 @@
 
 
 
-    <div data-role="page" style="background:#1bbc9b;">
+    <div data-role="page" class="wall" style="">
         <!-- 面板 -->
         <div data-role="panel" id="myPanel" data-position="right" style="position:fixed;">
 
             <a href="#" style="float:right;background-color:#00A000;color:white" data-rel="close" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-right">关闭</a>
-            <h3>我的简历</h3>
+            <h3 style="color:white">我的简历</h3>
             <a data-ajax="false" href="#pageone" style="width:100%" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-home ui-btn-icon-left">我的介绍</a>
             <a data-ajax="false" href="#pagetwo" style="width:100%" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-edit ui-btn-icon-left">职业技能</a>
             <a data-ajax="false" href="#pagethree" style="width:100%" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-tag ui-btn-icon-left">个人奖项</a>
@@ -87,7 +118,7 @@
 
 
         <!-- 内容 -->
-        <div data-role="main" class="ui-content" id="pageone" name="#pageone" style="background:#1bbc9b">
+        <div data-role="main" class="ui-content" id="pageone" name="#pageone" style="">
 
 
 
@@ -152,7 +183,7 @@
         </div>
 
         <!-- 内容 -->
-        <div data-role="main" class="ui-content" id="pagetwo" style="background:#1bbc9b;">
+        <div data-role="main" class="ui-content" id="pagetwo" style="">
             <!-- <p>个人简介</p> -->
             <!-- <h1 style="margin-left:8%;color:green;font-size:60px;margin-top:0px;">Allen</h1> -->
 
@@ -217,7 +248,7 @@
                 </div>
 
                 <div class="row clear">
-                    <h3>net/java:</h3>
+                    <h3>java:</h3>
                     <div class="progress strip">
                         <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 60%;">
                             <div class="progress-value">60%</div>
@@ -251,7 +282,7 @@
 
 
         <!-- 内容 -->
-        <div data-role="main" class="ui-content" id="pagethree" style="background:#1bbc9b;">
+        <div data-role="main" class="ui-content" id="pagethree" style="">
 
             <div class="zhuye6 " text-align="center">
                 <div style="background-color: #D8DBE4;border-radius: 25px;">
@@ -358,7 +389,7 @@
         </div>
 
 
-        <div data-role="main" class="ui-content" id="pagefour" style="background:#1bbc9b;">
+        <div data-role="main" class="ui-content" id="pagefour" style="">
             <div class="zhuye6">
                 <div style="background-color: #D8DBE4;border-radius: 25px;">
                     <hr style="height:5px;border:none;border-top:5px ridge green;width:90%">
@@ -366,18 +397,18 @@
                 </div>
             </div>
 
-            <iframe src="Experience/Experience.html" width="100%" height="650" frameborder="0" scrolling="no" style="margin-top:30px;"></iframe>
+            <iframe src="autodiv.html"  allowtransparency="true" width="100%" height="480" frameborder="0" scrolling="no" style="margin-top:30px;"></iframe>
 
         </div>
 
 
-        <div data-role="main" class="ui-content" id="pagefive" style="background:#1bbc9b;">
+        <div data-role="main" class="ui-content" id="pagefive" style="">
             <!-- <p>个人简介</p> -->
             <!-- <h1 style="margin-left:8%;color:green;font-size:60px;margin-top:0px;">Allen</h1> -->
 
             <div class="zhuye4" text-align="center">
                 <hr style="height:5px;border:none;border-top:5px ridge green;width:90%;margin-top:0">
-                <h1>联系方式</h1>
+                <h1>联系地址</h1>
                 <hr class="pagetwo-hr">
                 <h2>我的位置</h2>
                 <br>
