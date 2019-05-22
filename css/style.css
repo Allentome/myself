@@ -1,9 +1,13 @@
+body {
+  background-image: url(../images/css_tutorials/background.jpg);
+  background-repeat: -x;
+  background-attachment: fixed;
+}
 body,
 ul,
 li {
   margin: 0;
   padding: 0;
-  background-color: #1bbc9b;
 }
 a::after {
   background: green;
@@ -28,6 +32,7 @@ a::after {
   opacity: 1;
   display: none;
   height: 60px;
+  background: #00A000;
 }
 .header1 .header1-right {
   margin-top: -4px;
@@ -147,7 +152,6 @@ a::after {
   margin-bottom: 15px;
 }
 #pagethree .zhuye6 {
-  background: #1bbc9b;
   min-height: 522px;
   border-radius: 25px;
   margin-bottom: 50px;
@@ -214,7 +218,6 @@ a::after {
 }
 #pagefour {
   margin-bottom: 50px;
-  background-color: #1bbc9b;
 }
 #pagefour .zhuye6 h1 {
   float: left;
@@ -455,7 +458,7 @@ footer a img {
   }
   footer {
     margin-left: 43%;
-    margin-right: 5px;
+    margin-right: 20px;
     margin-top: -60px;
     left: 50%;
     top: 59%;

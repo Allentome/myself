@@ -12,12 +12,17 @@
     float: @float;
 }
 
+body {
+    background-image: url(../images/css_tutorials/background.jpg);
+    background-repeat: -x;
+    background-attachment: fixed
+}
+
 body,
 ul,
 li {
     margin: 0;
-    padding: 0;
-    background-color: #1bbc9b;
+    padding: 0; // background-color: #1bbc9b;
 }
 
 a::after {
@@ -45,7 +50,8 @@ a::after {
     text-align: center;
     opacity: 1;
     display: none;
-    height: 60px; // background-color: #00A000;
+    height: 60px;
+    background: #00A000;
     .header1-right {
         margin-top: -4px;
     }
@@ -182,7 +188,7 @@ a::after {
         // box-shadow: 10px 10px 5px #888888;
         // background: #D8DBE4; 
         // width: 100%;
-        background: #1bbc9b;
+        // background: #1bbc9b;
         min-height: 522px;
         border-radius: 25px;
         margin-bottom: 50px;
@@ -251,8 +257,7 @@ a::after {
 }
 
 #pagefour {
-    margin-bottom: 50px;
-    background-color: #1bbc9b;
+    margin-bottom: 50px; // background-color: #1bbc9b;
     .zhuye6 {
         h1 {
             float: left;
@@ -359,6 +364,7 @@ footer {
 }
 
 @media (max-width:770px) {
+
     #pageone {
         .zhuye1 {
             .zhuye(100%, none, none);
@@ -444,6 +450,7 @@ footer {
 }
 
 @media (min-width:771px) {
+
     .zhuye1 {
         .zhuye(41%, none, left);
         margin-left: 6%;
@@ -496,7 +503,7 @@ footer {
     }
     footer {
         margin-left: 43%;
-        margin-right: 5px;
+        margin-right: 20px;
         margin-top: -60px;
         left: 50%;
         top: 59%; // float: right;
