@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>amazing team</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link href="autojs/font-awesome.min.css">
+    <link rel="stylesheet" href="autojs/bootstrap.min3.3.7.css">
+    <link rel="stylesheet" href="autojs/bootstrap-theme.min.css">
+    <script src="autojs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="autojs/owl.carousel.min.css">
+    <link rel="stylesheet" href="autojs/owl.theme.min.css">
     <style>
         body {
             background-color: rgba(0, 0, 0, 0);
@@ -20,7 +20,7 @@
         }
 
         .owl-wrapper-outer {
-            height: 450px;
+            height: 500px;
         }
 
         .testimonial {
@@ -67,7 +67,7 @@
         }
 
         .testimonial .description {
-     
+
             color: black;
             text-align: justify;
             margin-bottom: 30px;
@@ -118,18 +118,26 @@
         .owl-theme .owl-controls .owl-page span {
             background: green;
         }
+
         @media (max-width:770px) {
             .testimonial .description {
                 font-size: 18px;
             }
-        }
-        @media (min-width:771px) {
-       
-            .testimonial .description {
-                font-size: 24px;
+
+            .owl-pagination {
+                margin-top: -90px;
             }
         }
 
+        @media (min-width:771px) {
+
+            .testimonial .description {
+                font-size: 24px;
+            }
+            .owl-pagination {
+                margin-top: 0px;
+            }
+        }
     </style>
 
 </head>
@@ -175,6 +183,25 @@
                         </div>
 
                     </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left">    </span>
+                        <p class="description">
+                            <b>2018-2019
+                                <br>
+                                校内实训</b>
+                            <br> 在校期间我和我们小组制作了一个可以diy搭配衣服的购物网站，用户可在此站上搭配自己风格的衣服:<a target="_blank" href="http://www.allentome.xyz:88/diyindex.php">随心配</a>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic">
+                                <img src="img/shenxin.jpg" alt="">
+                            </div>
+                            <h3 class="title">随心配</h3>
+                            <span class="post">DIY</span>
+                        </div>
+
+                    </div>
+
                     <div class="testimonial">
                         <span class="icon fa fa-quote-left"></span>
                         <p class="description">
@@ -213,8 +240,9 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+    <script src="autojs/jquery-3.3.1.js"></script>
+    <script src="autojs/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
             $("#testimonial-slider").owlCarousel({
