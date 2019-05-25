@@ -5,7 +5,7 @@ var _PageHeight = document.documentElement.clientHeight,
 var _LoadingTop = _PageHeight > 61 ? (_PageHeight - 61) / 2 : 0,
     _LoadingLeft = _PageWidth > 215 ? (_PageWidth - 215) / 2 : 0;
 //在页面未加载完毕之前显示的loading Html自定义内容
-var _LoadingHtml = '<div id="loadingDiv" style="margin-top:0;position:fixed;left:0;width:100%;height:' + _PageHeight + 'px;top:0;background:#1bbc9b;opacity:1;filter:alpha(opacity=80);z-index:10000;"><div class="loader"><div class="l_main"><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span> <center><iframe style="margin-top:150px;margin-left:-190px;" src="loading.html"height="25" frameborder="0" scrolling="no"></iframe></center></div></div></div></div>';
+var _LoadingHtml = '<div id="loadingDiv" style="margin-top:0;position:fixed;left:0;width:100%;height:' + _PageHeight + 'px;top:0;background:#1bbc9b;opacity: 0.8;filter:alpha(opacity=80);z-index:10000;"><div class="loader"><div class="l_main"><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span></div><div class="l_square"><span></span><span></span><span></span> <center><iframe style="margin-top:150px;margin-left:-190px;" src="loading.html"height="25" frameborder="0" scrolling="no"></iframe></center></div></div></div></div>';
 //呈现loading效果
 document.write(_LoadingHtml);
 
@@ -35,17 +35,17 @@ function completeLoading() {
             var loadingMask = document.getElementById('loadingDiv');
             loadingMask.parentNode.removeChild(loadingMask);
             myVar = window.setInterval(stopm1, 0);
-        }, 2000);
+        }, 0);
     }
 }
 
 
 function stopm() {
     // 滚动条禁用
-    $('body').css({
-        "overflow-x": "hidden",
-        "overflow-y": "hidden"
-    });
+    // $('body').css({
+    //     "overflow-x": "hidden",
+    //     "overflow-y": "hidden"
+    // });
 
 }
 function stopm1() {
