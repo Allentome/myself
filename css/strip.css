@@ -29,17 +29,18 @@
     background: #191919;
     border: 1px solid #000;
     position: absolute;
-    top: -40px;
-    right: -10px;
+    top: 15px;
+    right: -25px;
 }
 
 .progress .progress-value:after {
     content: "";
-    border-top: 10px solid #191919;
+    /* border-bottom: 10px solid #191919; */
+    border-bottom: 10px solid white; 
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     position: absolute;
-    bottom: -6px;
+    top: -10px;
     left: 26%;
 }
 

@@ -343,10 +343,17 @@ footer a img {
     height: none;
     float: none;
   }
+  #pagetwo .zhuye4 p {
+    margin-top: 20px;
+  }
   #pagetwo .zhuye5 {
     width: 100%;
     height: none;
     float: none;
+  }
+  #pagetwo .zhuye5 p {
+    margin-top: 20px;
+    float: left;
   }
   .zhuye6 {
     width: 100%;
@@ -358,7 +365,7 @@ footer a img {
   }
   .zhuye6 .min {
     width: 46%;
-    margin-right: 3.5%;
+    margin-right: 4%;
   }
   .zhuye6 .min h3 {
     font-size: 15px;
@@ -428,11 +435,18 @@ footer a img {
     float: left;
     margin-left: 6%;
   }
+  .zhuye4 p {
+    margin-top: 25px;
+  }
   .zhuye5 {
     width: 40%;
     height: none;
     float: left;
     margin-left: 6%;
+  }
+  .zhuye5 p {
+    margin-top: 25px;
+    float: left;
   }
   .zhuye6 {
     width: 86%;
@@ -445,7 +459,7 @@ footer a img {
   }
   .zhuye6 .min {
     width: 46%;
-    margin-right: 3.5%;
+    margin-right: 4%;
   }
   .zhuye6 .min .p4 {
     font-size: 14px;
